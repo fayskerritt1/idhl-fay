@@ -59,24 +59,26 @@ Both components are modular and imported into the main `index.js` file for easy 
     ```
 
 ## Project Structure
-idhl-test/\
-├── node_modules/\
-├── src/\
-│   ├── components/\
-│   │   ├── cart.js\
-│   │   └── loader.js\
-│   ├── styles/\
-│   │   ├── main.scss\
-│   │   ├── _cart.scss\
-│   │   └── _loader.scss\
-│   └── index.js\
-├── assets/\
-│   ├── bag.svg\
-│   ├── close.svg\
-│   ├── logo.svg\
-│   ├── product-large.jpg\
-│   └── product-small.jpg\
-├── .gitignore\
-├── package.json\
-├── webpack.config.js\
-└── README.md\
+```
+idhl-test/
+├── node_modules/
+├── src/
+│   ├── components/
+│   │   ├── cart.js
+│   │   └── loader.js
+│   ├── styles/
+│   │   ├── main.scss
+│   │   ├── _cart.scss
+│   │   └── _loader.scss
+│   └── index.js
+├── assets/
+│   ├── bag.svg
+│   ├── close.svg
+│   ├── logo.svg
+│   ├── product-large.jpg
+│   └── product-small.jpg
+├── .gitignore
+├── package.json
+├── webpack.config.js
+└── README.md
+```
