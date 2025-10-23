@@ -1,0 +1,26 @@
+.icon {
+    display: inline-flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    transition: all 0.3s ease;
+    will-change: scale;
+    cursor: pointer;
+
+    &:hover {
+        scale: 1.2;
+    }
+
+    // Close icon
+    &--close {
+        background-image: url('../assets/close.svg');
+    }
+
+    // Cart open icon
+    &--cart {
+        background-image: url('../assets/bag.svg');
+    }
+}

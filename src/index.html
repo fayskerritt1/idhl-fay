@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bart Pet Food</title>
+  </head>
+  <body>
+    <div class="nav">
+        <div class="nav__brand">
+            <img src="./assets/logo.svg" alt="Bark Logo">
+        </div>
+        <div class="nav__cart-button">
+            <span class="cart__open icon icon--cart"></span>
+        </div>
+    </div>
+    <main class="main">
+        <div class="page-contents">
+            <div class="page-contents__left">
+                <div class="hero">
+                    <h1 class="hero__title">Ornare Vulputate Elit</h1>
+                    <p class="hero__text">
+                        Nullam quis risus eget urna mollis ornare vel eu leo. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                    </p>
+                </div>
+            </div>
+            <div class="page-contents__right">
+                <div class="product-card">
+                    <div class="product-card__card">
+                        <img class="product-card__image" src="./assets/chicken@2x.png" alt="Dog Food Product Image">
+                        <h2 class="product-card__title">Natures Menu Dog Food Can <br> Chicken</h2>
+                        <p class="product-card__price">£22.81</p>
+                        <button class="product-card__button btn add-to-bag">Add to bag</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="cart-loader" class="cart-loader" aria-hidden="true"></div>
+        <aside id="cart" class="cart" aria-hidden="true">
+            <div class="cart__top">
+                <h2>Your Bag</h2>
+                <div class="cart__close-button">
+                    <span class="cart__close icon icon--close"></span>
+                </div>
+            </div>
+            <div class="cart__product-info">
+                <div class="cart__product-card">
+                    <div class="card-image">
+                        <img class="cart__product-image" src="./assets/chicken@2x.png" alt="Dog Food Product Image">
+                    </div>
+                    <div class="card-content">
+                        <h4 class="cart__product-card-title">Natures Menu Dog Food Can Chicken</h4>
+                        <p class="cart__product-card-price">£22.81</p>
+                        <button class="cart__product-card-button-underline btn-underline remove-from-bag" disabled>Remove</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart__content">
+                <p class="subtotal">Subtotal: £22.81</p>
+                <button class="product-card__button btn go-to-checkout" disabled>Proceed to Checkout</button>
+                <button class="product-card__button-underline btn-underline continue-shopping">Continue Shopping</button>
+
+            </div>
+        </aside>
+    </main>
+  </body>
+</html>
